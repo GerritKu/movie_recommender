@@ -1,6 +1,6 @@
 # movie_recommender using NMF or cosine similarity deployed with streamlit
 
-This repository includes the code required to deploy <a href="https://grouplens.org/datasets/movielens/.">this movie recommender site.</a>
+This repository includes the code required to deploy <a href="https://gerritku-movie-recommender-app-rwya5g.streamlit.app/">this movie recommender site.</a>
 The small app provides recommendations based on Non-Negative Matrix factorization (NMF) models or a cosine similarity based on the user's input. Deployed using Streamlit. 
 
 ## Structure of the repository
