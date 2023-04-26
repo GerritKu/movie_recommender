@@ -11,7 +11,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 ################################################################################################
 
 #Variables
-PATH = Path(__file__).parent.parent/'data'
+PATH = Path(__file__).parent/'data'
 movie_path = Path(f'{PATH}/movies.csv')
 rating_path = Path(f'{PATH}/ratings.csv')
 

@@ -1,14 +1,10 @@
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
 import streamlit as st
-import pickle
 import random
-from model_fit.utils import movie_path as movie_path
-from model_fit.utils import rating_path as rating_path 
-from model_fit.utils import my_ratings as rating_dict
-from model_fit.utils import (create_initial_matrix, get_similarity, get_top_simils, 
+from utils import movie_path as movie_path
+from utils import rating_path as rating_path 
+from utils import my_ratings as rating_dict
+from utils import (create_initial_matrix, get_similarity, get_top_simils, 
                              get_unseen, get_recommendation,recommend_nmf)
 
 nav = st.sidebar.radio(
